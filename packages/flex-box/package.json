@@ -1,0 +1,22 @@
+{
+  "name": "flexible-box",
+  "version": "0.0.0",
+  "description": "Web component implementation of flexible box",
+  "author": "Brian Kimball <bvkimball@gmail.com>",
+  "homepage": "https://github.com/bvkimball/flexible",
+  "license": "ISC",
+  "main": "lib/flex-box.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "flexible-core": "^0.0.0"
+  }
+}

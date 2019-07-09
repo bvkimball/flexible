@@ -1,0 +1,22 @@
+{
+  "name": "flexible-core",
+  "version": "0.0.0",
+  "description": "core functionality for flexible elements",
+  "author": "Brian Kimball <bvkimball@gmail.com>",
+  "homepage": "https://github.com/bvkimball/flexible",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.0"
+  }
+}

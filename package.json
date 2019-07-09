@@ -1,0 +1,20 @@
+{
+  "name": "flexible",
+  "private": true,
+  "description": "Web component implementation of flexible box",
+  "author": "Brian Kimball <bvkimball@gmail.com>",
+  "scripts": {
+    "bootstrap": "npm install && npm run hoist",
+    "hoist": "lerna bootstrap --hoist",
+    "dev": "polyserve --npm --module-resolution=node",
+    "tsc": "lerna run tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "lerna": "^3.15.0",
+    "polyserve": "^0.27.15",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.1"
+  }
+}
